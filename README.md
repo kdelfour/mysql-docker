@@ -1,2 +1,1 @@
-# mysql-docker
-Mysql server container
+# Mysql server container
