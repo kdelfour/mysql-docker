@@ -21,7 +21,7 @@ Starting a MySQL instance is simple:
 
 This image exposes the standard MySQL port (3306), so container linking makes the MySQL instance available to other application containers. Start your application container like this in order to link it to the MySQL container:
 
-    docker run --name some-app --link some-mysql:kdelfour/mysql-docker -d app-that-uses-mysql
+    docker run --name some-app --link some-mysql:mysql-docker -d app-that-uses-mysql
     
 ## Environment Variables
 
